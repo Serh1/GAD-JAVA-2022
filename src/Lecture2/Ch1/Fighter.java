@@ -1,18 +1,18 @@
-package Lecture2.Challenge1;
+package Lecture2.Ch1;
 
 public class Fighter {
     String name;
-    int heath;
+    int health;
     double damagePerAttack;
 
-    public Fighter(String name, int heath, double damagePerAttack) {
+    public Fighter(String name, int health, double damagePerAttack) {
         this.name = name;
-        this.heath = heath;
+        this.health = health;
         this.damagePerAttack = damagePerAttack;
     }
 
     public void attack(Fighter fighter){
-
+        fighter.health -= damagePerAttack;
     }
 
 

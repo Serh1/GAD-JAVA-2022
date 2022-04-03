@@ -1,4 +1,4 @@
-package Lecture1;
+package Lecture1.Ch1;
 
 public class Stage1 {
     public static boolean isMultiple(int n, int mult) {
