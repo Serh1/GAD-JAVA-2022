@@ -4,6 +4,20 @@ import java.util.Arrays;
 
 public class Solution {
     public static int solution(int[] arr) {
+      int y = 0;
+      for(;;){
+          if(y>=10) break;
+          y += ++y;
+      }
+
+      if(1 ==1 )
+
+          y = 10;
+
+      else y = 30;
+
+        System.out.println(y);
+
         int count = 0;
         int sum1 = 0,sum = 0;
         for (int i = 0; i < arr.length-2; i++) {
